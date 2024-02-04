@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        showModal: {
+          'from': { opacity: '0' },
+          'to': { opacity: '1' },
+        },
+      },
+      animation: {
+        showModal: 'showModal 200ms ease-in-out',
+      },
+    },
   },
   plugins: [],
 }

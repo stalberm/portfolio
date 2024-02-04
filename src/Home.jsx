@@ -9,7 +9,7 @@ const Home = () => {
       <div className='w-full h-screen absolute top-0 left-0 bg-gray-400 opacity-20'></div>
       <div className='absolute w-full h-screen top-0 left-0 m-auto flex flex-col justify-center items-center text-white'>
         <div className='max-w-[700px]'>
-          <h1 className='text-4xl font-bold'>Hi! I'm Micah Stalberg</h1>
+          <h1 className='text-4xl font-bold text-center'>Hi! I'm Micah Stalberg</h1>
           <h2 className='text-2xl'>
             <TypeAnimation
               sequence={[
@@ -22,7 +22,6 @@ const Home = () => {
                 'I am a passionate learner',
                 1000,
                 'I am a fitness enthusiast',
-                1000,
               ]}
               wrapper="div"
               cursor={true}
