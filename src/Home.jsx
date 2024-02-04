@@ -31,9 +31,9 @@ const Home = () => {
             />
           </h2>
           <div className='flex pt-6 justify-center space-x-16'>
+          <a href={'https://github.com/'} target="_blank" rel="noopener noreferrer">
             <FaGithub size={30} />
-            <FaLinkedin size={30} />
-            <FaInstagram size={30} />
+          </a>
           </div>
         </div>
       </div>
