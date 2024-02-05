@@ -30,7 +30,7 @@ const Work = () => {
     
   ]
   return (
-    <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 pt-16'>
       <h1 className='text-[#36454F] text-4xl font-bold text-center mb-8'>Work</h1>
       {work_data.map((item, idx) => (
         <WorkItem key={idx} data={item}/>

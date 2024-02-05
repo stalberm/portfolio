@@ -22,6 +22,7 @@ const Home = () => {
                 'I am a passionate learner',
                 1000,
                 'I am a fitness enthusiast',
+                1000,
               ]}
               wrapper="div"
               cursor={true}
