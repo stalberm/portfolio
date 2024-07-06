@@ -9,7 +9,7 @@ import smartbin from './assets/smartbin.png'
 const Projects = () => {
   const project_data = [
     {
-      'img': binsight,
+      'imgs': [binsight],
       'orient': 'object-left-top',
       'title': "BinSight Mobile App",
       'type': 'Flutter & SQLite',
@@ -18,7 +18,7 @@ const Projects = () => {
       'Data recieved includes images annotated by a computer vision model, and the app provides the ability to manually annotate images with segmentation maps. Both the app and Bluetooth device are apart of a food waste research project, funded by Kroger.'
     },
     {
-      'img': smartbin,
+      'imgs': [smartbin],
       'orient': 'object-center',
       'title': "Smart Compost Bin: Cloud",
       'type': 'Python, AWS EC2 & RDS',
@@ -28,7 +28,7 @@ const Projects = () => {
       'individual aspects, allowing for modularity and isolation of dependencies. Libraries used include Pytorch, pydantic, fastapi, matplotlib and streamlit to name a few.'
     },
     {
-      'img': soundbendor,
+      'imgs': [soundbendor],
       'orient': 'object-center',
       'title': "Soundbendor Lab Website",
       'type': 'React Js & SQLite',
@@ -37,7 +37,7 @@ const Projects = () => {
       'Services implement custom filter functions, ability for pagination, sorting, and more. Each service is used for dynamic generation of each page\'s content. Through the content manager, page layouts, contents, navigation, etc can all be done without the need to touch code; Fully functioning as a website builder, catered to SoundBendor.'
     },
     {
-      'img': levels,
+      'imgs': [levels],
       'orient': 'object-center',
       'title': "LevelSage",
       'type': 'React Js ',
@@ -45,7 +45,7 @@ const Projects = () => {
       'description': 'The LevelSage application serves as an interface with data derived from a custom ensemble of Recurrent Neural Network models. The net generates river level forecasts, and the website retrieves the data to create on-demand reports and graphical visualizations through a user-friendly web interface or mobile application.'
     },
     {
-      'img': weather,
+      'imgs': [weather],
       'orient': 'object-left-top',
       'title': "Custom Weather Website",
       'type': 'React Js',

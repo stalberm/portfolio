@@ -13,9 +13,9 @@ const Home = () => {
           <h2 className='text-2xl'>
             <TypeAnimation
               sequence={[
-                'I am a computer science student',
+                'I am a software developer',
                 1000,
-                'I am a computer science tutor',
+                'I am a Oregon State graduate',
                 1000,
                 'I am a problem solver',
                 1000,
@@ -32,7 +32,7 @@ const Home = () => {
             />
           </h2>
           <div className='flex pt-6 justify-center space-x-16'>
-          <a href={'https://github.com/'} target="_blank" rel="noopener noreferrer">
+          <a href={'https://github.com/stalberm'} target="_blank" rel="noopener noreferrer">
             <FaGithub size={30} />
           </a>
           </div>
