@@ -21,7 +21,7 @@ const Home = () => {
               sequence={[
                 "I am a software developer",
                 1000,
-                "I am a Oregon State graduate",
+                "I am an Oregon State graduate",
                 1000,
                 "I am a problem solver",
                 1000,
